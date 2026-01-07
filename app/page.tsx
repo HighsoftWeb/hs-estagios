@@ -9,10 +9,12 @@ export default function HomePage() {
           Acesse a visualização de estágios usando o CNPJ e Código Grupo na URL:
         </p>
         <div className="bg-gray-50 rounded-lg p-4 mb-6">
-          <code className="text-sm text-blue-600">/[cnpj]/[codGrupoEstagio]</code>
+          <code className="text-sm text-blue-600">
+            /[cnpj]/[codGrupoEstagio]
+          </code>
         </div>
         <p className="text-sm text-gray-500">
-          Exemplo: <code className="text-blue-600">/75365197000161/002</code>
+          Exemplo: <code className="text-blue-600">/123456789000100/001</code>
         </p>
       </div>
     </div>
