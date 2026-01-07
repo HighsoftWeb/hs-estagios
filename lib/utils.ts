@@ -41,6 +41,7 @@ export function transformarEstagiosEmKanban(
       situacao: item.SIT_ORCAMENTO_OS || "",
       ano: item.ANO_VEICULO || undefined,
       cor: item.COR_VEICULO || "",
+      obs: item.OBS_ORCAMENTO_OS || "",
     });
   });
 
