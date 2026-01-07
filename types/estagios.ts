@@ -9,6 +9,7 @@ export interface EstagioItem {
   ABR_ESTAGIO_MAN?: string;
   ANO_VEICULO?: number;
   COR_VEICULO?: string;
+  OBS_ORCAMENTO_OS?: string;
 }
 
 export interface EstagiosResponse {
@@ -25,6 +26,7 @@ export interface KanbanCardData {
   situacao: string;
   ano?: number;
   cor?: string;
+  obs?: string;
 }
 
 export interface KanbanColumnData {
