@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Status das OS - Kanban",
   description: "Sistema de visualização de estágios das Ordens de Serviço",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
